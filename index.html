@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Open Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Resources-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <span id="responseMsg"></span>
+          <select class="custom-select">
+            <option selected>Select a day</option>
+          </select>
+
+          <button id="sendToFS" class="btn btn-primary" type="submit">Send to FutureStay</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4>FutureStay Response:</h4>
+          <span id="FSMsg"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS Resources -->
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
